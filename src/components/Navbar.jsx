@@ -6,7 +6,7 @@ export default function Navbar() {
         <div className="container">
             <Link className="navbar-brand py-0" to="/">
                 <h1 className="header">
-                    <img src="./src/images/girlyn_w_logo.png" className="mw-100"/>
+                    <img src="/images/girlyn_w_logo.png" className="mw-100"/>
                 </h1>
             </Link>
             <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
