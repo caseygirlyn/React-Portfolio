@@ -21,7 +21,7 @@ export default function Home() {
         <section className="row p-4 border-1 mx-4 my-5">
             <h2 className="primary-color w-auto bg-white d-flex align-items-center">Skills</h2>
             <div>
-                <div className="column-gap-3 column-gap-md-5 row-gap-2 d-flex flex-wrap fs-5 justify-content-center mb-2">
+                <div className="column-gap-3 column-gap-md-5 row-gap-2 d-flex flex-wrap fs-4 justify-content-center mb-2">
                     <span><i className="bi bi-filetype-html"></i> HTML</span>
                     <span><i className="bi bi-filetype-css"></i> CSS</span>
                     <span><i className="bi bi-filetype-js"></i> JavaScript</span>
@@ -29,7 +29,7 @@ export default function Home() {
                     <span><i className="bi bi-git"></i> Git</span>
                     <span><i className="bi bi-github"></i> GitHub</span>
                 </div>
-                <div className="column-gap-3 column-gap-md-5 row-gap-2 d-flex flex-wrap fs-5 justify-content-center">
+                <div className="column-gap-3 column-gap-md-5 row-gap-2 d-flex flex-wrap fs-4 justify-content-center">
                     <span><i className="bi bi-check2-square"></i> Google Tag Management</span>
                     <span><i className="bi bi-check2-square"></i> Google Analytics</span>
                     <span><i className="bi bi-check2-square"></i> Search Engine Optimization</span>
@@ -37,8 +37,8 @@ export default function Home() {
                     <span><i className="bi bi-check2-square"></i> Vue.JS</span>
                     <span><i className="bi bi-check2-square"></i> ReactJS</span>
                     <span><i className="bi bi-check2-square"></i> Node.JS</span>
-                    <span><i className="bi bi-check2-square"></i> A/B Test &amp; Personalization</span>
                     <span><i className="bi bi-check2-square"></i> Figma</span>
+                    <span><i className="bi bi-check2-square"></i> A/B Test &amp; Personalization</span>
                 </div>
             </div>
         </section>

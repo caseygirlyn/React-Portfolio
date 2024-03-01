@@ -54,6 +54,10 @@ html, body, #root {
   min-height: 206px !important;
 }
 
+i.bi {
+  color: var(--primary-color);
+}
+
 /* card style */
 .card {
   border-color: var(--primary-color) !important;
