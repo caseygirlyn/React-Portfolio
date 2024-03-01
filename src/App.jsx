@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import projects from "./projects.json";
@@ -6,7 +7,6 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 
