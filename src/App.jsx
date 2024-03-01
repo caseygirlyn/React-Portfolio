@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 
@@ -17,7 +17,7 @@ function App() {
     <Hero />
     <Routes>
       <Route path="/" element={<Home />}></Route>
-      <Route path="/projects" element={
+      <Route path="projects" element={
         <Wrapper>
         <Title>Projects</Title>
         {projects.map((projectObj) => (
@@ -33,7 +33,7 @@ function App() {
         }
       </Wrapper>
       }></Route>
-      <Route path="/contact" element={<Contact />}></Route>
+      <Route path="contact" element={<Contact />}></Route>
     </Routes>   
     <Footer /> 
     </>
