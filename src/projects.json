@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "name": "CurrenCity",
+        "image": "./src/images/CurrenCity.gif",
+        "tech": "HTML / CSS / JS / API",
+        "url": "https://caseygirlyn.github.io/CurrenCity/"
+    },
+    {
+        "id": 2,
+        "name": "Professional README Generator",
+        "image": "./src/images/Professional-README-Generator.gif",
+        "tech": "NPM / Node.js",
+        "url": "https://caseygirlyn.github.io/Daily-Planner-App/"
+    },
+    {
+        "id": 3,
+        "name": "Team Profile Generator",
+        "image": "./src/images/Team-Profile-Generator.gif",
+        "tech": "HTML / CSS / NPM / Node.js",
+        "url": "https://github.com/caseygirlyn/Team-Profile-Generator/blob/main/output/team.html"
+    },
+    {
+        "id": 4,
+        "name": "Girlyn",
+        "image": "./src/images/girlyn.png",
+        "tech": "HTML / CSS / WordPress",
+        "url": "https://girlyn.co.uk/"
+    },
+    {
+        "id": 5,
+        "name": "Budget Direct SEA",
+        "image": "./src/images/budgetdirect.png",
+        "tech": "HTML / CSS / JS / Vue.js / SEO / GTM",
+        "url": "https://www.budgetdirect.com.sg/"
+    },
+    {
+        "id": 6,
+        "name": "Travel Packing List App",
+        "image": "./src/images/travel-packing-list.png",
+        "tech": "HTML / CSS / JS / Vue.js",
+        "url": "https://budgetdirect.com.sg/travel-packing-list"
+    },
+    {
+        "id": 7,
+        "name": "Auto & General SEA",
+        "image": "./src/images/ag.png",
+        "tech": "HTML / CSS / WordPress",
+        "url": "https://autogeneral.com.sg/"
+    },
+    {
+        "id": 8,
+        "name": "RYDE",
+        "image": "./src/images/ryde.png",
+        "tech": "HTML / CSS / WordPress",
+        "url": "https://rydesharing.com/"
+    },
+    {
+        "id":9,
+        "name": "Weather Dashboard",
+        "image": "./src/images/Weather-Dashboard.gif",
+        "tech": "HTML / CSS / JS",
+        "url": "https://caseygirlyn.github.io/Weather-Dashboard/"
+    },
+    {
+        "id": 10,
+        "name": "Work Day Scheduler",
+        "image": "./src/images/daily-planner-app.gif",
+        "tech": "TML / CSS / JS",
+        "url": "https://caseygirlyn.github.io/Daily-Planner-App/"
+    },
+    {
+        "id": 11,
+        "name": "Code Quiz Challenge",
+        "image": "./src/images/code-quiz.gif",
+        "tech": "HTML / CSS / JS",
+        "url": "https://caseygirlyn.github.io/Code-Quiz/"
+    }
+]
