@@ -13,20 +13,15 @@ export default function Contact() {
     const handleFormSubmit = (event) => {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         event.preventDefault();
-        if (!formData.firstName || !formData.lastName) {
-            alert('Fill out your first and last name please!');
-        } else if (formData.password.length < 6) {
-            alert(
-                `Choose a more secure password ${formData.firstName} ${formData.lastName}`
-            );
-        } else {
-            alert(`Hello ${formData.firstName} ${formData.lastName}`);
-        }
+        if (!formData.firstName || !formData.lastName || !formData.email) {
+            //alert('Fill out your first and last name please!');
+        } 
 
         setFormData({
             firstName: '',
             lastName: '',
-            password: '',
+            email: '',
+            message: ''
         });
     };
     return <div className="container content my-5 py-3">
@@ -36,21 +31,21 @@ export default function Contact() {
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
                         <div className="form-floating mb-3">
-                            <input type="text" className="form-control" id="floatingFirstName" placeholder="" name="firstName" required/>
+                            <input type="text" className="form-control" id="floatingFirstName" placeholder="" name="firstName" required />
                             <label htmlFor="floatingFirstName" className="ms-1 px-2">Last Name</label>
                             <div className="invalid-feedback">
                                 Please provide your first name.
                             </div>
                         </div>
                         <div className="form-floating mb-3">
-                            <input type="text" className="form-control" id="floatingLastName" placeholder="" name="lastName" required/>
+                            <input type="text" className="form-control" id="floatingLastName" placeholder="" name="lastName" required />
                             <label htmlFor="floatingLastName" className="ms-1 px-2">Last Name</label>
                             <div className="invalid-feedback">
                                 Please provide your last name.
                             </div>
                         </div>
                         <div className="form-floating mb-3">
-                            <input type="email" className="form-control" id="floatingEmail" placeholder="name@example.com" name="email" required/>
+                            <input type="email" className="form-control" id="floatingEmail" placeholder="name@example.com" name="email" required />
                             <label htmlFor="floatingEmail" className="ms-1 px-2">Email address</label>
                             <div className="invalid-feedback">
                                 Please provide a valid email.
