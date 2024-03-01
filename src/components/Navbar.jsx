@@ -5,8 +5,8 @@ export default function Navbar() {
     return <nav className="navbar navbar-expand-lg navbar-dark bg-primary-color">
         <div className="container">
             <NavLink className="navbar-brand py-0" to="/">
-                <h1 className="header">
-                    <img src="/images/girlyn_w_logo.png" className="mw-100"/>
+                <h1 className="header mb-1">
+                    <img src="/images/girlyn_w_logo.png"/>
                 </h1>
             </NavLink>
             <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
