@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Home() {
-    return <div className="container content my-5 py-3">
+    return <div className="container content my-5 py-1">
         <section className="row p-4 border-1 mx-4 my-5">
             <h2 className="primary-color w-auto bg-white d-flex align-items-center">About Me</h2>
             <div className="pt-3">
