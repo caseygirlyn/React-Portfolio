@@ -6,7 +6,7 @@ export default function Navbar() {
         <div className="container">
             <NavLink className="navbar-brand py-0" to="/">
                 <h1 className="header mb-1">
-                    <img src="/images/girlyn_w_logo.png"/>
+                    <img src="/images/girlyn_w_logo.png" />
                 </h1>
             </NavLink>
             <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,10 +15,12 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto me-0">
                     <li className="nav-item mx-2">
-                        <NavLink className="nav-link fs-5 text-white" to="/">Home</NavLink>
+                        <NavLink className=
+                        {`${({ isActive }) =>
+                        isActive ? 'active' : ''} nav-link fs-5 text-white`} end to="/">Home</NavLink>
                     </li>
                     <li className="nav-item mx-2">
-                        <NavLink className="nav-link fs-5 text-white" to="/projects" >Projects</NavLink>
+                        <NavLink className="nav-link fs-5 text-white" to="projects" >Projects</NavLink>
                     </li>
                     <li className="nav-item mx-2">
                         <NavLink className="nav-link fs-5 text-white" to="https://github.com/caseygirlyn" target="_blank">GitHub</NavLink>
@@ -27,7 +29,7 @@ export default function Navbar() {
                         <NavLink className="nav-link fs-5 text-white" to="https://www.linkedin.com/in/girlyncasey/" target="_blank">LinkedIn</NavLink>
                     </li>
                     <li className="nav-item mx-2">
-                        <NavLink className="nav-link fs-5 text-white" to="/contact">Contact Me</NavLink>
+                        <NavLink className="nav-link fs-5 text-white" to="contact">Contact Me</NavLink>
                     </li>
                 </ul>
             </div>
