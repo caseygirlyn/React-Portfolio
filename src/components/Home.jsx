@@ -39,7 +39,7 @@ export default function Home() {
                 <span><i className="bi bi-git"></i> Git</span>
                 <span><i className="bi bi-github"></i> GitHub</span>
             </div>
-            <div className="column-gap-3 column-gap-md-5 row-gap-2 d-flex flex-wrap fs-5 justify-content-center px-0">
+            <div className="column-gap-3 column-gap-md-5 row-gap-2 d-flex flex-wrap fs-5 justify-content-center px-0 mb-2">
                 <span><i className="bi bi-check2-square"></i> Google Tag Management</span>
                 <span><i className="bi bi-check2-square"></i> Google Analytics</span>
                 <span><i className="bi bi-check2-square"></i> Search Engine Optimization</span>
