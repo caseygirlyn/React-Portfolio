@@ -9,7 +9,9 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   padding: 0;
   margin: 0;
   height: 100%;
@@ -45,9 +47,14 @@ html, body, #root {
   border: 2px solid var(--primary-color);
 }
 
-.border-1 h2{
+.border-1 h2 {
   margin-top: -35px;
   height: max-content;
+}
+
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
 }
 
 #floatingMessage {
@@ -58,7 +65,8 @@ i.bi {
   color: var(--primary-color);
 }
 
-a.nav-link.active, a.nav-link:hover {
+a.nav-link.active,
+a.nav-link:hover {
   border-bottom: 1px solid;
 }
 
@@ -69,7 +77,7 @@ a.nav-link.active, a.nav-link:hover {
 
 /* contant links style */
 footer a.btn:hover {
-  color: var(--primary-color);;
+  color: var(--primary-color);
 }
 
 /* media queries */
@@ -77,9 +85,15 @@ footer a.btn:hover {
   .caption {
     position: absolute;
     margin-top: 15%;
-    opacity: .9;
+    opacity: 0.9;
   }
   .caption:hover {
     padding: 20px 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    max-width: 180px;
   }
 }
