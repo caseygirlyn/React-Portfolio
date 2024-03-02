@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Projects(props) {
-    return <div className="cardContainer col-md-4 col-sm-12 w-lg-auto p-3" id={props.id}>
+    return <div className="cardContainer col-md-4 col-sm-12 w-lg-auto p-md-3 p-1 pb-3" id={props.id}>
         <div className="card border-2 rounded-0 w-auto shadow">
             <img src={props.image} title={props.name} className="w-100" />
             <div className="card-body caption bg-primary-color text-white">
