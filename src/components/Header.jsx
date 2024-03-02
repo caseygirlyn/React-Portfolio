@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
 
-export default function Navbar() {
+export default function Header() {
     return <nav className="navbar navbar-expand-lg navbar-dark bg-primary-color">
         <div className="container">
             <NavLink className="navbar-brand py-0" to="/">

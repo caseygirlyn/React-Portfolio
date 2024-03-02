@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Title from "./components/Title";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Home from "./components/Home";
 import Project from "./components/Project";
@@ -13,7 +13,7 @@ import projects from "./projects.json";
 function App() {
   return (
     <>
-      <Navbar />
+      <Header />
       <Hero />
       <Routes>
         <Route path="/" element={<Home />}></Route>
