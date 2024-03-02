@@ -4,76 +4,95 @@
         "name": "CurrenCity",
         "image": "/images/CurrenCity.gif",
         "tech": "HTML / CSS / JS / API",
-        "url": "https://caseygirlyn.github.io/CurrenCity/"
+        "url": "https://caseygirlyn.github.io/CurrenCity/",
+        "githubRepo" : "https://github.com/caseygirlyn/CurrenCity"
     },
     {
         "id": 2,
         "name": "Professional README Generator",
         "image": "/images/Professional-README-Generator.gif",
         "tech": "NPM / Node.js",
-        "url": "https://caseygirlyn.github.io/Daily-Planner-App/"
+        "url": "https://caseygirlyn.github.io/Daily-Planner-App/",
+        "githubRepo" : "https://github.com/caseygirlyn/Professional-README-Generator"
     },
     {
         "id": 3,
         "name": "Team Profile Generator",
         "image": "/images/Team-Profile-Generator.gif",
         "tech": "HTML / CSS / NPM / Node.js",
-        "url": "https://github.com/caseygirlyn/Team-Profile-Generator/blob/main/output/team.html"
+        "url": "https://github.com/caseygirlyn/Team-Profile-Generator/blob/main/output/team.html",
+        "githubRepo" : "https://github.com/caseygirlyn/Team-Profile-Generator"
     },
     {
         "id": 4,
         "name": "Girlyn",
         "image": "/images/girlyn.png",
         "tech": "HTML / CSS / WordPress",
-        "url": "https://girlyn.co.uk/"
+        "url": "https://girlyn.co.uk/",
+        "githubRepo" : ""
     },
     {
         "id": 5,
         "name": "Budget Direct SEA",
         "image": "/images/budgetdirect.png",
         "tech": "HTML / CSS / JS / Vue.js / SEO / GTM",
-        "url": "https://www.budgetdirect.com.sg/"
+        "url": "https://www.budgetdirect.com.sg/",
+        "githubRepo" : ""
     },
     {
         "id": 6,
         "name": "Travel Packing List App",
         "image": "/images/travel-packing-list.png",
         "tech": "HTML / CSS / JS / Vue.js",
-        "url": "https://budgetdirect.com.sg/travel-packing-list"
+        "url": "https://budgetdirect.com.sg/travel-packing-list",
+        "githubRepo" : ""
     },
     {
         "id": 7,
         "name": "Auto & General SEA",
         "image": "/images/ag.png",
         "tech": "HTML / CSS / WordPress",
-        "url": "https://autogeneral.com.sg/"
+        "url": "https://autogeneral.com.sg/",
+        "githubRepo" : ""
     },
     {
         "id": 8,
         "name": "RYDE",
         "image": "/images/ryde.png",
         "tech": "HTML / CSS / WordPress",
-        "url": "https://rydesharing.com/"
+        "url": "https://rydesharing.com/",
+        "githubRepo" : ""
     },
     {
         "id":9,
         "name": "Weather Dashboard",
         "image": "/images/Weather-Dashboard.gif",
         "tech": "HTML / CSS / JS",
-        "url": "https://caseygirlyn.github.io/Weather-Dashboard/"
+        "url": "https://caseygirlyn.github.io/Weather-Dashboard/",
+        "githubRepo" : "https://github.com/caseygirlyn/Weather-Dashboard"
     },
     {
         "id": 10,
-        "name": "Work Day Scheduler",
-        "image": "/images/daily-planner-app.gif",
-        "tech": "TML / CSS / JS",
-        "url": "https://caseygirlyn.github.io/Daily-Planner-App/"
+        "name": "TotalJobs Gender Paygap",
+        "image": "/images/totaljobs-gender-paygap.gif",
+        "tech": "HTML / CSS / JS",
+        "url": "https://caseygirlyn.github.io/paygap/",
+        "githubRepo" : "https://github.com/caseygirlyn/paygap"
     },
     {
         "id": 11,
+        "name": "Work Day Scheduler",
+        "image": "/images/daily-planner-app.gif",
+        "tech": "HTML / CSS / JS",
+        "url": "https://caseygirlyn.github.io/Daily-Planner-App/",
+        "githubRepo" : "https://github.com/caseygirlyn/Daily-Planner-App"
+    },
+    {
+        "id": 12,
         "name": "Code Quiz Challenge",
         "image": "/images/code-quiz.gif",
         "tech": "HTML / CSS / JS",
-        "url": "https://caseygirlyn.github.io/Code-Quiz/"
+        "url": "https://caseygirlyn.github.io/Code-Quiz/",
+        "githubRepo" : "https://github.com/caseygirlyn/Code-Quiz"
     }
 ]
