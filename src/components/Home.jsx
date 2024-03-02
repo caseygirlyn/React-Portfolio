@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Home() {
-    return <div className="container content my-5 py-1">
+    return <div className="container content my-3 py-1">
         <section className="row p-4 border-1 mx-4 my-5">
             <h2 className="primary-color w-auto bg-white d-flex align-items-center">About Me</h2>
             <div className="pt-3">
@@ -14,7 +14,7 @@ export default function Home() {
                     thinking, collaboration, and adaptability are crucial. I take pride
                     in my ability to align teams with the company's vision, manage
                     project scopes and timelines, and ensure the delivery of
-                    high-quality solutions that exceed clients' expectations.
+                    high-quality solutions that exceed clients' expectations. 
                 </p>
                 <p>
                     In addition to my professional pursuits, I find fulfillment and enrichment through a diverse array of hobbies and interests. Photography has become a passion of mine, allowing me to capture moments of beauty and tell stories through imagery, showcasing my creativity and attention to detail. Cooking and baking serve as outlets for my creativity and patience, providing opportunities to experiment with flavors and techniques while nourishing both body and soul. I also enjoy immersing myself in nature through outdoor activities, which not only promote physical fitness but also instill in me a profound appreciation for the natural world and the importance of perseverance. Furthermore, engaging in DIY projects allows me to exercise my problem-solving skills and hands-on abilities, while reading broadens my horizons, stimulates my intellect, and nurtures my love for learning. Additionally, I am an avid traveler, having explored more than 20 countries and their diverse cultures and landscapes. These experiences have fostered adaptability, cultural awareness, and a global perspective, enriching my understanding of the world and enhancing my interpersonal skills. I also find joy in singing, which not only allows me to express myself creatively but also promotes confidence and communication skills. Moreover, I am passionate about trading and investing, continuously expanding my knowledge of financial markets and honing my analytical skills. These varied interests reflect my diverse skill set, curiosity, and commitment to personal growth, contributing to a well-rounded and adaptable approach to life and work.
