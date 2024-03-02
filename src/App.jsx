@@ -28,6 +28,7 @@ function App() {
             image={projectObj.image}
             tech={projectObj.tech}
             url={projectObj.url}
+            githubRepo={projectObj.githubRepo}
           />
           ))
         }
