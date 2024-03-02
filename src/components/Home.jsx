@@ -15,11 +15,18 @@ export default function Home() {
                 project scopes and timelines, and ensure the delivery of
                 high-quality solutions that exceed clients' expectations.
             </p>
-            <p>
-                In addition to my professional pursuits, I find fulfillment and enrichment through a diverse array of hobbies and interests. Photography has become a passion of mine, allowing me to capture moments of beauty and tell stories through imagery, showcasing my creativity and attention to detail. I also enjoy immersing myself in nature through outdoor activities, which not only promote physical fitness but also instill in me a profound appreciation for the natural world and the importance of perseverance. Furthermore, engaging in DIY projects allows me to exercise my problem-solving skills and hands-on abilities, while reading broadens my horizons, stimulates my intellect, and nurtures my love for learning. Additionally, I am an avid traveler, having explored more than 20 countries and their diverse cultures and landscapes. These experiences have fostered adaptability, cultural awareness, and a global perspective, enriching my understanding of the world and enhancing my interpersonal skills. Moreover, I am passionate about trading and investing, continuously expanding my knowledge of financial markets and honing my analytical skills. These varied interests reflect my diverse skill set, curiosity, and commitment to personal growth, contributing to a well-rounded and adaptable approach to life and work.
+            <p className="collapse" id="collapseExample">
+                In addition to my professional pursuits, I find fulfillment and enrichment through a diverse array of hobbies and interests. Photography has become a passion of mine, allowing me to capture moments of beauty and tell stories through imagery, showcasing my creativity and attention to detail. I also enjoy immersing myself in nature through outdoor activities, which not only promote physical fitness but also instill in me a profound appreciation for the natural world and the importance of perseverance. Additionally, I am an avid traveler, having explored more than 20 countries and their diverse cultures and landscapes. These experiences have fostered adaptability, cultural awareness, and a global perspective, enriching my understanding of the world and enhancing my interpersonal skills. Moreover, I am passionate about trading and investing, continuously expanding my knowledge of financial markets and honing my analytical skills. These varied interests reflect my diverse skill set, curiosity, and commitment to personal growth, contributing to a well-rounded and adaptable approach to life and work.
             </p>
-            <p>
-                You can download my <a href="/cv/GIRLYN_CASEY_CV_2024.pdf" className="primary-color" target="_blank" rel="nofollow">CV here</a>.
+            <p className="mb-0">
+                <span className="primary-color" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <span className="collapsed">
+                        + Read more
+                    </span>
+                    <span className="expanded">
+                        - Read less
+                    </span>
+                </span>
             </p>
         </section>
         <section className="row p-3 border-1 mx-4 my-5">
@@ -44,5 +51,6 @@ export default function Home() {
                 <span><i className="bi bi-check2-square"></i> A/B Test &amp; Personalization</span>
             </div>
         </section>
+        <div className="px-4 text-center"><a href="/cv/GIRLYN_CASEY_CV_2024.pdf" className="btn btn-secondary btn-lg bg-primary-color border-0" role="button" target="_blank" rel="nofollow"><i className="bi bi-download text-white me-2"></i>Download CV</a></div>
     </div>
 }
