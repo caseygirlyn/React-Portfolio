@@ -27,6 +27,8 @@ This portfolio website serves as a platform to present my professional backgroun
 
 - **Frontend:** HTML, CSS, ReactJS, Bootstrap
 - **Version Control:** Git
+- **Package Manager**: NPM
+- **Web Hosting Service**: Netlify
 - **Code Quality:** Prettier
 
 ## Link to Project
