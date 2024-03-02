@@ -51,11 +51,15 @@ html, body, #root {
 }
 
 #floatingMessage {
-  min-height: 206px !important;
+  min-height: 206px;
 }
 
 i.bi {
   color: var(--primary-color);
+}
+
+a.nav-link.active, a.nav-link:hover {
+  border-bottom: 1px solid;
 }
 
 /* card style */
@@ -79,16 +83,3 @@ footer a.btn:hover {
     padding: 20px 40px;
   }
 }
-
-@media screen and (min-width: 768px) {
-  .border-start {
-    border-color: var(--primary-color) !important;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .border-start {
-    border-left: 0 !important;
-  }
-}
-
