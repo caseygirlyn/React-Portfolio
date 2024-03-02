@@ -25,9 +25,10 @@ export default function Contact() {
         });
     };
     return <div className="container content my-3 py-1">
-        <section className="row p-4 border-1 mx-4 my-5">
+        <section className="row p-3 border-1 mx-4 my-5">
             <h2 className="primary-color w-auto bg-white d-flex align-items-center">Contact Me</h2>
-            <form className="needs-validation py-4" noValidate>
+            <p className='my-3'>Feel free to reach out to me at <a href='mailto:casey.girlyn@gmail.com' className='primary-color'>casey.girlyn@gmail.com</a> or fill in the form below.</p>
+            <form className="needs-validation p-0" noValidate>
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
                         <div className="form-floating mb-3">
