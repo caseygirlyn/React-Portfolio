@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+    const form = useRef();
 
     const [formData, setFormData] = useState({
         firstName: '',
@@ -55,6 +57,20 @@ export default function Contact() {
                 email: '',
                 message: ''
             });
+
+            emailjs
+                .sendForm('service_eceyvpd', 'template_xxdiukp', form.current, {
+                    publicKey: '9SvmKJ6FtI7Rn-Ide',
+                })
+                .then(
+                    () => {
+                        console.log('SUCCESS!');
+                    },
+                    (error) => {
+                        console.log('FAILED...', error.text);
+                    },
+                );
+
             setSubmitted(true);
             // Reset submission status after 5 seconds
             setTimeout(() => {
@@ -77,7 +93,7 @@ export default function Contact() {
                 </div></div>
             ) : ''}
 
-            <form className="needs-validation p-0 p-md-2" noValidate onSubmit={handleSubmit}>
+            <form ref={form} className="needs-validation p-0 p-md-2" noValidate onSubmit={handleSubmit}>
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
                         <div className="form-floating mb-3">
@@ -108,7 +124,6 @@ export default function Contact() {
                     </div>
                 </div>
             </form>
-
         </section>
     </div>
 }
