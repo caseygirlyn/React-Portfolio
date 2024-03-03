@@ -16,11 +16,11 @@ export default function Header() {
                 <ul className="navbar-nav ms-auto me-0">
                     <li className="nav-item mx-2">
                         <NavLink className=
-                            {`${({ isActive }) =>
-                                isActive ? 'active' : ''} nav-link fs-5 text-white`} end to="/">Home</NavLink>
+                        {`${({ isActive }) =>
+                        isActive ? 'active' : ''} nav-link fs-5 text-white`} end to="/">Home</NavLink>
                     </li>
                     <li className="nav-item mx-2">
-                        <NavLink className="nav-link fs-5 text-white" to="/projects">Projects</NavLink>
+                        <NavLink className="nav-link fs-5 text-white" to="projects" >Projects</NavLink>
                     </li>
                     <li className="nav-item mx-2">
                         <NavLink className="nav-link fs-5 text-white" to="https://github.com/caseygirlyn" target="_blank">GitHub</NavLink>
@@ -29,7 +29,7 @@ export default function Header() {
                         <NavLink className="nav-link fs-5 text-white" to="https://www.linkedin.com/in/girlyncasey/" target="_blank">LinkedIn</NavLink>
                     </li>
                     <li className="nav-item mx-2">
-                        <NavLink className="nav-link fs-5 text-white" to="/contact" >Contact Me</NavLink>
+                        <NavLink className="nav-link fs-5 text-white" to="contact">Contact Me</NavLink>
                     </li>
                 </ul>
             </div>
