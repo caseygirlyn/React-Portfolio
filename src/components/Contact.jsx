@@ -10,60 +10,116 @@ export default function Contact() {
         message: ''
     });
 
-    const handleFormSubmit = (event) => {
-        // Preventing the default behavior of the form submit (which is to refresh the page)
-        event.preventDefault();
-        if (!formData.firstName || !formData.lastName || !formData.email) {
-            //alert('Fill out your first and last name please!');
-        } 
+    const [errors, setErrors] = useState({});
+    const [submitted, setSubmitted] = useState(false);
 
+    const handleChange = (e) => {
+        const { name, value } = e.target;
         setFormData({
-            firstName: '',
-            lastName: '',
-            email: '',
-            message: ''
+            ...formData,
+            [name]: value
         });
+        validateForm()
     };
+
+    const validateForm = () => {
+
+        let isValid = true;
+        let newErrors = {};
+
+        if (!formData.firstName.trim()) {
+            newErrors.firstName = 'First Name is required';
+            isValid = false;
+        }
+
+        if (!formData.lastName.trim()) {
+            newErrors.lastName = 'Last Name is required';
+            isValid = false;
+        }
+
+        if (!formData.email.trim()) {
+            newErrors.email = 'Email is required';
+            isValid = false;
+        } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+            newErrors.email = 'Email is invalid';
+            isValid = false;
+        }
+
+        if (!formData.message.trim()) {
+            newErrors.message = 'Message is required';
+            isValid = false;
+        }
+        setErrors(newErrors);
+        return isValid;
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if (validateForm()) {
+            // Form submission logic goes here
+            console.log('Form submitted:', formData);
+
+            setSubmitted(true);
+            // Reset submission status after 5 seconds
+            setTimeout(() => {
+                setSubmitted(false);
+            }, 5000);
+
+            // Reset form fields after submission
+            setFormData({
+                firstName: '',
+                lastName: '',
+                email: '',
+                message: ''
+            });
+        } else {
+            console.log('Form has errors');
+        }
+    };
+
     return <div className="container content my-3 py-1">
         <section className="row p-3 border-1 mx-4 my-5">
             <h2 className="primary-color w-auto bg-white d-flex align-items-center">Contact Me</h2>
-            <p className='my-3'>Feel free to reach out to me at <a href='mailto:casey.girlyn@gmail.com' className='primary-color'>casey.girlyn@gmail.com</a> or fill in the form below.</p>
-            <form className="needs-validation p-0" noValidate>
-                <div className="row">
-                    <div className="col-md-6 col-sm-12">
-                        <div className="form-floating mb-3">
-                            <input type="text" className="form-control" id="floatingFirstName" placeholder="" name="firstName" required />
-                            <label htmlFor="floatingFirstName" className="ms-1 px-2">Last Name</label>
-                            <div className="invalid-feedback">
-                                Please provide your first name.
+            <p className='my-3 px-md-2 px-0'>Feel free to reach out to me at <a href='mailto:casey.girlyn@gmail.com' className='primary-color link'>casey.girlyn@gmail.com</a> or fill in the form below and <a href="/cv/GIRLYN_CASEY_CV_2024.pdf" className="primary-color link"><i className="bi bi-download me-2" target="_blank"></i>Download my CV</a>.</p>
+
+            {submitted ? (
+                <div className='px-2'><div className="alert alert-success" role="alert">
+                    Thank you for your message! I will get back to you shortly.
+                </div></div>
+            ) : ''}
+
+                <form className="needs-validation p-0 p-md-2" noValidate onSubmit={handleSubmit}>
+                    <div className="row">
+                        <div className="col-md-6 col-sm-12">
+                            <div className="form-floating mb-3">
+                                <input type="text" id="floatingFirstName" placeholder="" name="firstName" required value={formData.firstName} onChange={handleChange} className={`form-control ${errors.firstName && 'is-invalid'}`} />
+                                <label htmlFor="floatingFirstName" className="ms-1 px-2">First Name</label>
+                                {errors.firstName && <span className="text-danger ps-1">{errors.firstName}</span>}
+                            </div>
+                            <div className="form-floating mb-3">
+                                <input type="text" id="floatingLastName" placeholder="" name="lastName" required value={formData.lastName} onChange={handleChange} className={`form-control ${errors.lastName && 'is-invalid'}`} />
+                                <label htmlFor="floatingLastName" className="ms-1 px-2">Last Name</label>
+                                {errors.lastName && <span className="text-danger ps-1">{errors.lastName}</span>}
+                            </div>
+                            <div className="form-floating mb-3">
+                                <input type="email" id="floatingEmail" placeholder="name@example.com" name="email" required value={formData.email} onChange={handleChange} className={`form-control ${errors.email && 'is-invalid'}`} />
+                                <label htmlFor="floatingEmail" className="ms-1 px-2">Email address</label>
+                                {errors.email && <span className="text-danger ps-1">{errors.email}</span>}
                             </div>
                         </div>
-                        <div className="form-floating mb-3">
-                            <input type="text" className="form-control" id="floatingLastName" placeholder="" name="lastName" required />
-                            <label htmlFor="floatingLastName" className="ms-1 px-2">Last Name</label>
-                            <div className="invalid-feedback">
-                                Please provide your last name.
+                        <div className="col-md-6 col-sm-12">
+                            <div className="form-floating mb-3">
+                                <textarea placeholder="Message" id="floatingMessage" name="message" value={formData.message} onChange={handleChange} className={`form-control ${errors.message && 'is-invalid'}`}></textarea>
+                                <label htmlFor="floatingMessage" className="ms-1 px-2">Message</label>
+                                {errors.message && <span className="text-danger ps-1">{errors.message}</span>}
                             </div>
-                        </div>
-                        <div className="form-floating mb-3">
-                            <input type="email" className="form-control" id="floatingEmail" placeholder="name@example.com" name="email" required />
-                            <label htmlFor="floatingEmail" className="ms-1 px-2">Email address</label>
-                            <div className="invalid-feedback">
-                                Please provide a valid email.
+                            <div className="col-12">
+                                <button className="btn btn-secondary bg-primary-color w-100 p-3 border-0 mb-2">Submit form</button>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12">
-                        <div className="form-floating mb-3">
-                            <textarea className="form-control " placeholder="Message" id="floatingMessage" name="message"></textarea>
-                            <label htmlFor="floatingMessage" className="ms-1 px-2">Message</label>
-                        </div>
-                        <div className="col-12">
-                            <button className="btn btn-secondary bg-primary-color w-100 p-3 border-0" onClick={handleFormSubmit}>Submit form</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
+                </form>
+            
         </section>
     </div>
 }
