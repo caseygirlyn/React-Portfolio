@@ -70,9 +70,14 @@ a.nav-link:hover {
   border-bottom: 1px solid;
 }
 
+.project-container{
+  max-width: 800px;
+}
+
 /* card style */
 .card {
   border-color: var(--primary-color) !important;
+  
 }
 
 /* contant links style */
