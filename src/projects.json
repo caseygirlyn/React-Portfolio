@@ -4,48 +4,60 @@
         "name": "CurrenCity",
         "image": "/images/CurrenCity.gif",
         "tech": "HTML / CSS / JS / API",
+        "description": "This application allows you to get real-time information about a city you want to visit, including the 5-day weather forecast, map of top attractions, and the current currency exchange rate from GBP.",
         "url": "https://caseygirlyn.github.io/CurrenCity/",
-        "githubRepo" : "https://github.com/caseygirlyn/CurrenCity"
+        "githubRepo" : "https://github.com/caseygirlyn/CurrenCity",
+        "slug": "currencity"
     },
     {
         "id": 2,
         "name": "Professional README Generator",
         "image": "/images/Professional-README-Generator.gif",
         "tech": "NPM / Node.js",
+        "description": "Professional README Generator is a command-line tool designed to simplify the process of creating README.md files for your projects. Instead of manually writing and formatting the README file, this tool automates the process based on the information you provide.",
         "url": "https://caseygirlyn.github.io/Daily-Planner-App/",
-        "githubRepo" : "https://github.com/caseygirlyn/Professional-README-Generator"
+        "githubRepo" : "https://github.com/caseygirlyn/Professional-README-Generator",
+        "slug": "readme-generator"
     },
     {
         "id": 3,
         "name": "Team Profile Generator",
         "image": "/images/Team-Profile-Generator.gif",
         "tech": "HTML / CSS / NPM / Node.js",
+        "description": "Team Profile Generator is a command-line application that allows users to input information about software engineering team members and generates an HTML file displaying their profiles.",
         "url": "https://github.com/caseygirlyn/Team-Profile-Generator/blob/main/output/team.html",
-        "githubRepo" : "https://github.com/caseygirlyn/Team-Profile-Generator"
+        "githubRepo" : "https://github.com/caseygirlyn/Team-Profile-Generator",
+        "slug": "profile-generator"
     },
     {
         "id": 4,
         "name": "Girlyn",
         "image": "/images/girlyn.png",
         "tech": "HTML / CSS / WordPress",
+        "description": "Girlyn LTD is company that specializes in providing a range of digital services to businesses and organizations. These services include website design and development, Technical SEO, PageSpeed Optimization and Google Tag Management.",
         "url": "https://girlyn.co.uk/",
-        "githubRepo" : ""
+        "githubRepo" : "",
+        "slug": "girlyn"
     },
     {
         "id": 5,
         "name": "Budget Direct SEA",
         "image": "/images/budgetdirect.png",
         "tech": "HTML / CSS / JS / Vue.js / SEO / GTM",
+        "description": "Budget Direct SEA is a company providing Car, Motorcycle and Travel Insurance Policies in Singapore.",
         "url": "https://www.budgetdirect.com.sg/",
-        "githubRepo" : ""
+        "githubRepo" : "",
+        "slug": "budget-direct"
     },
     {
         "id": 6,
         "name": "Travel Packing List App",
         "image": "/images/travel-packing-list.png",
         "tech": "HTML / CSS / JS / Vue.js",
+        "description": "This application is designed to help travelers organize and prepare for their trips more efficiently. These apps come with pre-made packing lists for various types of trips. Users can select a list that suits their needs or customize it according to their preferences.",
         "url": "https://budgetdirect.com.sg/travel-packing-list",
-        "githubRepo" : ""
+        "githubRepo" : "",
+        "slug": "packing-list"
     },
     {
         "id": 7,
@@ -53,46 +65,58 @@
         "image": "/images/ag.png",
         "tech": "HTML / CSS / WordPress",
         "url": "https://autogeneral.com.sg/",
-        "githubRepo" : ""
+        "description": "Official website of Auto & General South East Asia.",
+        "githubRepo" : "",
+        "slug": "autogeneral"
     },
     {
         "id": 8,
         "name": "RYDE",
         "image": "/images/ryde.png",
         "tech": "HTML / CSS / WordPress",
+        "description": "Official website of RYDE, a carpooling app in Singapore.",
         "url": "https://rydesharing.com/",
-        "githubRepo" : ""
+        "githubRepo" : "",
+        "slug": "ryde"
     },
     {
         "id":9,
         "name": "Weather Dashboard",
         "image": "/images/Weather-Dashboard.gif",
         "tech": "HTML / CSS / JS",
+        "description": "This Weather Dashboard is a web application that utilizes the OpenWeatherMap API to provide users with current weather conditions and a 5-day weather forecast for a specified city. The dashboard includes a user-friendly search form, allowing users to input the desired city and receive accurate and up-to-date weather information.",
         "url": "https://caseygirlyn.github.io/Weather-Dashboard/",
-        "githubRepo" : "https://github.com/caseygirlyn/Weather-Dashboard"
+        "githubRepo" : "https://github.com/caseygirlyn/Weather-Dashboard",
+        "slug": "weather-dashboard"
     },
     {
         "id": 10,
         "name": "TotalJobs Gender Paygap",
         "image": "/images/totaljobs-gender-paygap.gif",
         "tech": "HTML / CSS / JS",
+        "description": "TotalJobs Gender PayGap involves examining the disparity in earnings between men and women in the workforce. This gap is expressed as the difference in median or average earnings between men and women in annual basis.",
         "url": "https://caseygirlyn.github.io/paygap/",
-        "githubRepo" : "https://github.com/caseygirlyn/paygap"
+        "githubRepo" : "https://github.com/caseygirlyn/paygap",
+        "slug": "paygap"
     },
     {
         "id": 11,
         "name": "Work Day Scheduler",
         "image": "/images/daily-planner-app.gif",
         "tech": "HTML / CSS / JS",
+        "description":"The Work Day Scheduler is a simple and intuitive tool designed to help you organize and schedule your workday efficiently. This app provides a user-friendly interface to keep you on track by dividing your day into specific time blocks.",
         "url": "https://caseygirlyn.github.io/Daily-Planner-App/",
-        "githubRepo" : "https://github.com/caseygirlyn/Daily-Planner-App"
+        "githubRepo" : "https://github.com/caseygirlyn/Daily-Planner-App",
+        "slug": "scheduler"
     },
     {
         "id": 12,
         "name": "Code Quiz Challenge",
         "image": "/images/code-quiz.gif",
         "tech": "HTML / CSS / JS",
+        "description": "This application is designed to challenge users with a series of coding-related questions, providing an engaging way to enhance their JavaScript knowledge.",
         "url": "https://caseygirlyn.github.io/Code-Quiz/",
-        "githubRepo" : "https://github.com/caseygirlyn/Code-Quiz"
+        "githubRepo" : "https://github.com/caseygirlyn/Code-Quiz",
+        "slug": "code-quiz"
     }
 ]
