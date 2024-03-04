@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import projects from "./projects.json";
+import Slug from "./components/Slug";
 
 function App() {
   return (
@@ -27,11 +28,14 @@ function App() {
                 tech={projectObj.tech}
                 url={projectObj.url}
                 githubRepo={projectObj.githubRepo}
+                slug={projectObj.slug}
               />
             ))
             }
           </Projects>
         }></Route>
+        <Route path="projects/:slug" element={<Slug />}>
+        </Route>  
         <Route path="contact" element={<Contact />}></Route>
       </Routes>
       <Footer />
