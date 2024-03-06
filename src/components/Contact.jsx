@@ -72,7 +72,7 @@ export default function Contact() {
                 );
 
             setSubmitted(true);
-            // Reset submission status after 5 seconds
+            // Reset submission status after 3 seconds
             setTimeout(() => {
                 setSubmitted(false);
             }, 3000);
