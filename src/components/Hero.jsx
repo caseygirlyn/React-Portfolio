@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="container d-md-flex align-items-md-end h-100 justify-content-md-between p-3">
             <img src="/images/photo.jpg" alt="Girlyn" className="rounded-circle avatar shadow" />
                 <h2 className="float-md-end bg-primary-color text-white mt-3 p-3 text-center shadow">
-                    Web Developer / SEO / GTM
+                    Full-Stack Developer / SEO / GTM
                 </h2>
         </div>
     </div>

@@ -101,4 +101,7 @@ footer a.btn:hover {
   .navbar-brand img {
     max-width: 180px;
   }
+  .hero-banner h2{
+    font-size: 1.25rem;
+  }
 }
