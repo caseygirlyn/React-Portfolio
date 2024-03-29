@@ -1,6 +1,16 @@
 [
     {
         "id": 1,
+        "name": "AIQTrading",
+        "image": "/images/AIQTrading.gif",
+        "tech": "HTML / CSS / Vite / ReactJS / NodeJS / API",
+        "description": "This is a full-stack trading app built with React for the frontend, Node.js for the backend, and API integration for trading functionalities.",
+        "url": "https://aiqtrading.netlify.app/",
+        "githubRepo" : "https://github.com/caseygirlyn/AIQTrading",
+        "slug": "aiqtrading"
+    },
+    {
+        "id": 2,
         "name": "CurrenCity",
         "image": "/images/CurrenCity.gif",
         "tech": "HTML / CSS / JS / API",
@@ -10,7 +20,7 @@
         "slug": "currencity"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Professional README Generator",
         "image": "/images/Professional-README-Generator.gif",
         "tech": "NPM / Node.js",
@@ -20,7 +30,7 @@
         "slug": "readme-generator"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Team Profile Generator",
         "image": "/images/Team-Profile-Generator.gif",
         "tech": "HTML / CSS / NPM / Node.js",
@@ -30,7 +40,7 @@
         "slug": "profile-generator"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Girlyn",
         "image": "/images/girlyn.png",
         "tech": "HTML / CSS / WordPress",
@@ -40,7 +50,7 @@
         "slug": "girlyn"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Budget Direct SEA",
         "image": "/images/budgetdirect.png",
         "tech": "HTML / CSS / JS / Vue.js / SEO / GTM",
@@ -50,7 +60,7 @@
         "slug": "budget-direct"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Travel Packing List App",
         "image": "/images/travel-packing-list.png",
         "tech": "HTML / CSS / JS / Vue.js",
@@ -60,7 +70,7 @@
         "slug": "packing-list"
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Auto & General SEA",
         "image": "/images/ag.png",
         "tech": "HTML / CSS / WordPress",
@@ -70,7 +80,7 @@
         "slug": "autogeneral"
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "RYDE",
         "image": "/images/ryde.png",
         "tech": "HTML / CSS / WordPress",
@@ -78,16 +88,6 @@
         "url": "https://rydesharing.com/",
         "githubRepo" : "",
         "slug": "ryde"
-    },
-    {
-        "id":9,
-        "name": "Weather Dashboard",
-        "image": "/images/Weather-Dashboard.gif",
-        "tech": "HTML / CSS / JS",
-        "description": "This Weather Dashboard is a web application that utilizes the OpenWeatherMap API to provide users with current weather conditions and a 5-day weather forecast for a specified city. The dashboard includes a user-friendly search form, allowing users to input the desired city and receive accurate and up-to-date weather information.",
-        "url": "https://caseygirlyn.github.io/Weather-Dashboard/",
-        "githubRepo" : "https://github.com/caseygirlyn/Weather-Dashboard",
-        "slug": "weather-dashboard"
     },
     {
         "id": 10,
