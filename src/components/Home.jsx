@@ -6,14 +6,7 @@ export default function Home() {
             <h2 className="primary-color w-auto bg-white d-flex align-items-center">About Me</h2>
             <p>Hi, I'm Girlyn Casey!</p>
             <p>
-                Over the past 14 years, I have been privileged to work in roles that
-                allowed me to hone my skills in web development. I have successfully
-                overseen numerous complex web development projects from inception to
-                completion. I thrive in fast-paced environments where strategic
-                thinking, collaboration, and adaptability are crucial. I take pride
-                in my ability to align teams with the company's vision, manage
-                project scopes and timelines, and ensure the delivery of
-                high-quality solutions that exceed clients' expectations.
+                For the past 15 years, I have had the privilege of working in roles that have refined my web development skills. I have successfully managed numerous complex web development projects from inception to completion. I excel in fast-paced environments that demand strategic thinking, collaboration, and adaptability. I take pride in my ability to align teams with the company's vision, manage project scopes and timelines, and deliver high-quality solutions.
             </p>
             <p className="collapse" id="collapseExample">
                 In addition to my professional pursuits, I find fulfillment and enrichment through a diverse array of hobbies and interests. Photography has become a passion of mine, allowing me to capture moments of beauty and tell stories through imagery, showcasing my creativity and attention to detail. I also enjoy immersing myself in nature through outdoor activities, which not only promote physical fitness but also instill in me a profound appreciation for the natural world and the importance of perseverance. Additionally, I am an avid traveler, having explored more than 20 countries and their diverse cultures and landscapes. These experiences have fostered adaptability, cultural awareness, and a global perspective, enriching my understanding of the world and enhancing my interpersonal skills. Moreover, I am passionate about trading and investing, continuously expanding my knowledge of financial markets and honing my analytical skills. These varied interests reflect my diverse skill set, curiosity, and commitment to personal growth, contributing to a well-rounded and adaptable approach to life and work.
