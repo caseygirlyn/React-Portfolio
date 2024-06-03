@@ -49,8 +49,8 @@ export default function Home() {
                 <span><i className="bi bi-check2-square"></i> Performance Optimization</span>
                 <span><i className="bi bi-check2-square"></i> Agile Methodologies</span>
                 <span><i className="bi bi-check2-square"></i> RESTful Services</span>
-                <span><i className="bi bi-check2-square"></i> Continuous Integration/ Continuous Deployment (CI/CD)</span>
-                <span><i className="bi bi-check2-square"></i> VWO (Visual Website Optimizer)</span>
+                <span><i className="bi bi-check2-square"></i> CI/CD</span>
+                <span><i className="bi bi-check2-square"></i> Visual Website Optimizer</span>
                 <span><i className="bi bi-check2-square"></i> Google Tag Management</span>
                 <span><i className="bi bi-check2-square"></i> Google Analytics</span>
                 <span><i className="bi bi-check2-square"></i> Search Engine Optimization</span>
