@@ -59,6 +59,29 @@ export default function Home() {
                 <span><i className="bi bi-check2-square"></i> A/B Test &amp; Personalization</span>
             </div>
         </section>
+        <section className="row p-3 border-1 mx-4 my-5">
+            <h2 className="primary-color w-auto bg-white d-flex align-items-center">Certificates</h2>
+            <div className="row m-0">
+                <p className="col-md-4 py-2 text-center">
+                    <a href="https://skillsbootcamp.credential.getsmarter.com/47092453-aada-415b-8530-f03361621b2a#gs.a9hue4" className="text-dark" target="_blank">
+                        <img src="/images/edX_bootcamp.png" className="d-inline-block w-100" />
+                        <span className="d-inline-block mt-2">edX Skills Bootcamp in Front-End Development</span>
+                    </a>
+                </p>
+                <p className="col-md-4 py-2 text-center">
+                    <a href="/certificates/Sitecore_Web_Experience_Management.pdf" target="_blank" className="text-dark">
+                        <img src="/images/sitecore.svg" className="d-inline-block w-100" />
+                        <span className="d-inline-block mt-2">Sitecore Web Experience Management</span>
+                    </a>
+                </p>
+                <p className="col-md-4 py-2 text-center">
+                    <a href="/certificates/Sitecore_Context_Marketing.pdf" target="_blank" className="text-dark">
+                        <img src="/images/sitecore.svg" className="d-inline-block w-100" />
+                        <span className="d-inline-block mt-2">Sitecore Context Marketing</span>
+                    </a>
+                </p>
+            </div>
+        </section>
         <div className="px-4 text-center"><a href="/cv/GIRLYN_CASEY_CV_2024.pdf" className="btn btn-secondary btn-lg bg-primary-color border-0" role="button" target="_blank" rel="nofollow"><i className="bi bi-download text-white me-2"></i>Download CV</a></div>
     </div>
 }
