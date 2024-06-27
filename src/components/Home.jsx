@@ -64,19 +64,19 @@ export default function Home() {
             <div className="row m-0">
                 <p className="col-md-4 py-2 text-center">
                     <a href="https://skillsbootcamp.credential.getsmarter.com/47092453-aada-415b-8530-f03361621b2a#gs.a9hue4" className="text-dark" target="_blank">
-                        <img src="/images/edX_bootcamp.png" className="d-inline-block w-100" />
+                        <img src="/images/edX_bootcamp.png" className="d-inline-block w-100" alt="edX Skills Bootcamp in Front-End Development Certificate"/>
                         <span className="d-inline-block mt-2">edX Skills Bootcamp in Front-End Development</span>
                     </a>
                 </p>
                 <p className="col-md-4 py-2 text-center">
                     <a href="/certificates/Sitecore_Web_Experience_Management.pdf" target="_blank" className="text-dark">
-                        <img src="/images/sitecore.svg" className="d-inline-block w-100" />
+                        <img src="/images/sitecore.svg" className="d-inline-block w-100" alt="Sitecore Web Experience Management Certificate"/>
                         <span className="d-inline-block mt-2">Sitecore Web Experience Management</span>
                     </a>
                 </p>
                 <p className="col-md-4 py-2 text-center">
                     <a href="/certificates/Sitecore_Context_Marketing.pdf" target="_blank" className="text-dark">
-                        <img src="/images/sitecore.svg" className="d-inline-block w-100" />
+                        <img src="/images/sitecore.svg" className="d-inline-block w-100" alt="Sitecore Context Marketing Certificate"/>
                         <span className="d-inline-block mt-2">Sitecore Context Marketing</span>
                     </a>
                 </p>
