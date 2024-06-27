@@ -6,7 +6,7 @@ export default function Header() {
         <div className="container">
             <NavLink className="navbar-brand py-0" to="/">
                 <h1 className="header mb-1">
-                    <img src="/images/girlyn_w_logo.png" />
+                    <img src="/images/girlyn_w_logo.png" alt="Girlyn Casey - Full-Stack Developer - SEO"/>
                 </h1>
             </NavLink>
             <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
