@@ -8,6 +8,7 @@ This is a portfolio website built with ReactJS and Bootstrap. It showcases my sk
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [PageSpeed Insights](#pagespeed-insights)
 - [Link](#link-to-project)
 - [License](#license)
 - [Questions](#questions)
@@ -33,7 +34,13 @@ This portfolio website serves as a platform to present my professional backgroun
 
 ## Link to Project
 
-The live version of this project can be found [here](https://girlyncasey.netlify.app/).
+The live version of this project can be found [here](https://girlyn.com/).
+
+## PageSpeed Insights
+
+I am excited to offer a comprehensive PageSpeed Optimization service, designed to enhance your website's performance and user experience. My expertise will help your site pass Core Web Vitals and achieve high scores in Performance, Accessibility, Best Practices, and SEO. Let’s work together to ensure your website is fast, accessible, and optimized for both users and search engines.
+
+![Home Page](./public/images/pagespeed_insights.png)
 
 ## Usage
 
