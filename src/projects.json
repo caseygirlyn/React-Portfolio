@@ -101,13 +101,13 @@
     },
     {
         "id": 11,
-        "name": "Work Day Scheduler",
-        "image": "/images/daily-planner-app.gif",
-        "tech": "HTML / CSS / JS",
-        "description":"The Work Day Scheduler is a simple and intuitive tool designed to help you organize and schedule your workday efficiently. This app provides a user-friendly interface to keep you on track by dividing your day into specific time blocks.",
-        "url": "https://caseygirlyn.github.io/Daily-Planner-App/",
-        "githubRepo" : "https://github.com/caseygirlyn/Daily-Planner-App",
-        "slug": "scheduler"
+        "name": "Marvel Clicky Game",
+        "image": "/images/clicky_game.gif",
+        "tech": "HTML / CSS / Vite / ReactJS / NodeJS",
+        "description":"This is a fun memory-testing game where your goal is to click on images to earn points. However, you must remember which images you have already clicked on because clicking the same image twice will end the game.",
+        "url": "https://click-game-marvel.netlify.app/",
+        "githubRepo" : "https://github.com/caseygirlyn/clicky-game-marvel",
+        "slug": "clicky-game"
     },
     {
         "id": 12,
