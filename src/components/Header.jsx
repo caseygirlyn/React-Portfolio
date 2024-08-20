@@ -29,6 +29,9 @@ export default function Header() {
                         <NavLink className="nav-link fs-5 text-white" to="https://www.linkedin.com/in/girlyncasey/" target="_blank">LinkedIn</NavLink>
                     </li>
                     <li className="nav-item mx-2">
+                        <NavLink className="nav-link fs-5 text-white" to="https://girlyn.co.uk/" target="_blank">Girlyn.co.uk</NavLink>
+                    </li>
+                    <li className="nav-item mx-2">
                         <NavLink className="nav-link fs-5 text-white" to="contact">Contact Me</NavLink>
                     </li>
                 </ul>
