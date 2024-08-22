@@ -89,7 +89,7 @@ export default function Home() {
                 <p className="col-md-6">
                     I am excited to offer a comprehensive PageSpeed Optimization service, designed to enhance your website's performance and user experience. My expertise will help your site pass Core Web Vitals and achieve high scores in Performance, Accessibility, Best Practices, and SEO. Let’s work together to ensure your website is fast, accessible, and optimized for both users and search engines.
                 </p>
-                <p className="col-md-6"><img src="https://raw.githubusercontent.com/caseygirlyn/React-Portfolio/main/public/images/pagespeed_insights.png" className="w-100" /></p>
+                <p className="col-md-6"><img src="https://raw.githubusercontent.com/caseygirlyn/React-Portfolio/main/public/images/pagespeed_insights.png" alt="PageSpeed Optimization" className="w-100" /></p>
             </div>
         </section>
 
