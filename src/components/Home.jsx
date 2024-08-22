@@ -3,7 +3,7 @@ import React from "react";
 export default function Home() {
     return <div className="container content my-3 py-1">
         <section className="row p-3 border-1 mx-4 my-5">
-            <h2 className="primary-color w-auto bg-white d-flex align-items-center">About Me</h2>
+            <h2 className="primary-color w-auto bg-white d-flex align-items-center">Leadership</h2>
             <p>Hi, I'm Girlyn Casey!</p>
             <p>
                 For the past 15 years, I have had the privilege of working in roles that have refined my web development skills. I have successfully managed numerous complex web development projects from inception to completion. I excel in fast-paced environments that demand strategic thinking, collaboration, and adaptability. I take pride in my ability to align teams with the company's vision, manage project scopes and timelines, and deliver high-quality solutions.
