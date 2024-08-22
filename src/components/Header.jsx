@@ -17,10 +17,10 @@ export default function Header() {
                     <li className="nav-item mx-2">
                         <NavLink className=
                         {`${({ isActive }) =>
-                        isActive ? 'active' : ''} nav-link fs-5 text-white`} end to="/">Home</NavLink>
+                        isActive ? 'active' : ''} nav-link fs-5 text-white`} end to="https://girlyn.com">Home</NavLink>
                     </li>
                     <li className="nav-item mx-2">
-                        <NavLink className="nav-link fs-5 text-white" to="projects" >Projects</NavLink>
+                        <NavLink className="nav-link fs-5 text-white" to="https://girlyn.com/projects" >Projects</NavLink>
                     </li>
                     <li className="nav-item mx-2">
                         <NavLink className="nav-link fs-5 text-white" to="https://github.com/caseygirlyn" target="_blank">GitHub</NavLink>
@@ -32,7 +32,7 @@ export default function Header() {
                         <NavLink className="nav-link fs-5 text-white" to="https://girlyn.co.uk/" target="_blank">Girlyn.co.uk</NavLink>
                     </li>
                     <li className="nav-item mx-2">
-                        <NavLink className="nav-link fs-5 text-white" to="contact">Contact Me</NavLink>
+                        <NavLink className="nav-link fs-5 text-white" to="https://girlyn.com/contact">Contact Me</NavLink>
                     </li>
                 </ul>
             </div>
