@@ -102,7 +102,7 @@
     {
         "id": 11,
         "name": "Clicky Game Marvel",
-        "image": "/images/clicky_game.gif",
+        "image": "/images/clicky_game.webp",
         "tech": "HTML / CSS / Vite / ReactJS / NodeJS",
         "description":"This is a fun memory-testing game where your goal is to click on images to earn points. However, you must remember which images you have already clicked on because clicking the same image twice will end the game.",
         "url": "https://click-game-marvel.netlify.app/",
