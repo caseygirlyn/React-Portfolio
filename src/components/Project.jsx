@@ -11,7 +11,7 @@ export default function Project(props) {
                 <small>
                 <NavLink to={props.slug} rel="noreferrer" className="card-link text-white">View Project</NavLink>
                     <NavLink to={props.url} target="_blank" rel="noreferrer" className="card-link text-white">Live Link</NavLink>
-                    { props.githubRepo ? <NavLink to={props.githubRepo} target="_blank" rel="noreferrer" className="card-link text-white">GitHub Repo</NavLink> : ''}
+                    { props.githubRepo ? <NavLink to={props.githubRepo} target="_blank" rel="noreferrer" className="card-link text-white">GitHub</NavLink> : ''}
                 </small>
             </div>
         </div>
