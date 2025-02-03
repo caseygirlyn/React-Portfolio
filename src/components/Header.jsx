@@ -18,7 +18,7 @@ export default function Header() {
                 <NavLink className="navbar-brand py-0" to="/" onClick={closeNav}>
                     <h1 className="header mb-1">
                         <img
-                            src="/images/girlyn_w_logo.png"
+                            src="/images/girlyn_w_logo.svg"
                             alt="Girlyn Casey - Full-Stack Developer - SEO"
                             width={225}
                             height={40}
