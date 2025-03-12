@@ -6,10 +6,10 @@ export default function Home() {
             <h2 className="primary-color w-auto bg-white d-flex align-items-center">Leadership</h2>
             <p>Hi, I'm Girlyn Casey!</p>
             <p>
-                For the past 15 years, I have had the privilege of working in roles that have refined my web development skills. I have successfully managed numerous complex web development projects from inception to completion. I excel in fast-paced environments that demand strategic thinking, collaboration, and adaptability. I take pride in my ability to align teams with the company's vision, manage project scopes and timelines, and deliver high-quality solutions.
+                With over 15 years of experience in web/app development, I have honed my skills through diverse roles, successfully leading complex projects from inception to completion. Thriving in fast-paced environments, I excel at strategic thinking, collaboration, and adaptability. I take pride in aligning teams with company goals, managing project scopes and timelines, and delivering high-quality, scalable solutions.
             </p>
             <p className="collapse" id="collapseExample">
-                In addition to my professional pursuits, I find fulfillment and enrichment through a diverse array of hobbies and interests. Photography has become a passion of mine, allowing me to capture moments of beauty and tell stories through imagery, showcasing my creativity and attention to detail. I also enjoy immersing myself in nature through outdoor activities, which not only promote physical fitness but also instill in me a profound appreciation for the natural world and the importance of perseverance. Additionally, I am an avid traveler, having explored more than 20 countries and their diverse cultures and landscapes. These experiences have fostered adaptability, cultural awareness, and a global perspective, enriching my understanding of the world and enhancing my interpersonal skills. Moreover, I am passionate about trading and investing, continuously expanding my knowledge of financial markets and honing my analytical skills. These varied interests reflect my diverse skill set, curiosity, and commitment to personal growth, contributing to a well-rounded and adaptable approach to life and work.
+                Beyond my professional expertise, I am passionate about trading and investing, continuously refining my understanding of financial markets and analytical skills. My diverse interests reflect a commitment to continuous learning, growth, and a well-rounded approach to problem-solving and innovation. Additionally, I am an avid traveler and have explored more than 20 countries. These experiences have deepened my adaptability, cultural awareness, and global perspective, enriching my personal and professional interactions.
             </p>
             <p className="mb-0">
                 <span className="primary-color" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -33,7 +33,7 @@ export default function Home() {
                 <span><i className="bi bi-github"></i> GitHub</span>
             </div>
             <div className="column-gap-3 column-gap-md-5 row-gap-2 d-flex flex-wrap fs-5 justify-content-center px-0 mb-2">
-                <span><i className="bi bi-check2-square"></i>Sitecore</span>
+                <span><i className="bi bi-check2-square"></i> Sitecore</span>
                 <span><i className="bi bi-check2-square"></i> Vue.JS</span>
                 <span><i className="bi bi-check2-square"></i> ReactJS</span>
                 <span><i className="bi bi-check2-square"></i> Node.JS</span>
@@ -42,6 +42,8 @@ export default function Home() {
                 <span><i className="bi bi-check2-square"></i> Bitbucket</span>
                 <span><i className="bi bi-check2-square"></i> API integration</span>
                 <span><i className="bi bi-check2-square"></i> Bootstrap</span>
+                <span><i className="bi bi-check2-square"></i> Tailwind CSS</span>
+                <span><i className="bi bi-check2-square"></i> PrimeVue</span>
                 <span><i className="bi bi-check2-square"></i> PHP</span>
                 <span><i className="bi bi-check2-square"></i> MySQL</span>
                 <span><i className="bi bi-check2-square"></i> Responsive Design</span>
@@ -89,10 +91,10 @@ export default function Home() {
                 <p className="col-md-6 mt-md-3 pe-md-2 pe-0">
                     I am excited to offer a comprehensive PageSpeed Optimization service, designed to enhance your website's performance and user experience. My expertise will help your site pass Core Web Vitals and achieve high scores in Performance, Accessibility, Best Practices, and SEO. Let’s work together to ensure your website is fast, accessible, and optimized for both users and search engines. <a href="https://wa.me/447539472477" target="_blank" className="primary-color d-inline-block">Get in Touch via WhatsApp</a>
                 </p>
-                <p className="col-md-6"><a href="https://pagespeed.web.dev/analysis/https-girlyn-com/nmddyx3pgs?form_factor=desktop" target="_blank" title="PageSpeed Insights"><img src="https://raw.githubusercontent.com/caseygirlyn/React-Portfolio/main/public/images/pagespeed_insights.png" alt="PageSpeed Optimization" className="w-100" /></a></p>
+                <p className="col-md-6"><a href="https://pagespeed.web.dev/analysis/https-girlyn-com/8lu9zk7lut?form_factor=desktop" target="_blank" title="PageSpeed Insights"><img src="https://raw.githubusercontent.com/caseygirlyn/React-Portfolio/main/public/images/pagespeed_insights.png" alt="PageSpeed Optimization" className="w-100" /></a></p>
             </div>
         </section>
 
-        <div className="px-4 text-center"><a href="/cv/GIRLYN_CASEY_CV_2024.pdf" className="btn btn-secondary btn-lg bg-primary-color border-0" role="button" target="_blank" rel="nofollow"><i className="bi bi-download text-white me-2"></i>Download CV</a></div>
+        <div className="px-4 text-center"><a href="/cv/GIRLYN_CASEY_CV.pdf" className="btn btn-secondary btn-lg bg-primary-color border-0" role="button" target="_blank" rel="nofollow"><i className="bi bi-download text-white me-2"></i>Download CV</a></div>
     </div>
 }
