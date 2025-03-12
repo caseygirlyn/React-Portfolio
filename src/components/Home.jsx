@@ -6,7 +6,7 @@ export default function Home() {
             <h2 className="primary-color w-auto bg-white d-flex align-items-center">Leadership</h2>
             <p>Hi, I'm Girlyn Casey!</p>
             <p>
-                With over 15 years of experience in web/app development, I have honed my skills through diverse roles, successfully leading complex projects from inception to completion. Thriving in fast-paced environments, I excel at strategic thinking, collaboration, and adaptability. I take pride in aligning teams with company goals, managing project scopes and timelines, and delivering high-quality, scalable solutions.
+                With over 15 years of experience in web development, I have honed my skills through diverse roles, successfully leading complex projects from inception to completion. Thriving in fast-paced environments, I excel at strategic thinking, collaboration, and adaptability. I take pride in aligning teams with company goals, managing project scopes and timelines, and delivering high-quality, scalable solutions.
             </p>
             <p className="collapse" id="collapseExample">
                 Beyond my professional expertise, I am passionate about trading and investing, continuously refining my understanding of financial markets and analytical skills. My diverse interests reflect a commitment to continuous learning, growth, and a well-rounded approach to problem-solving and innovation. Additionally, I am an avid traveler and have explored more than 20 countries. These experiences have deepened my adaptability, cultural awareness, and global perspective, enriching my personal and professional interactions.
