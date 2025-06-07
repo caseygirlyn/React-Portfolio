@@ -32,7 +32,7 @@ export default function Home() {
                 <span><i className="bi bi-git"></i> Git</span>
                 <span><i className="bi bi-github"></i> GitHub</span>
             </div>
-            <div className="column-gap-3 column-gap-md-4 row-gap-1 d-flex flex-wrap fs-5 justify-content-center px-0 mb-2">
+            <div className="column-gap-3 column-gap-md-4 row-gap-2 d-flex flex-wrap fs-5 justify-content-center px-0 mb-2">
                 <span><i className="bi bi-check2-square"></i> Sitecore</span>
                 <span><i className="bi bi-check2-square"></i> Vue.JS</span>
                 <span><i className="bi bi-check2-square"></i> ReactJS</span>
