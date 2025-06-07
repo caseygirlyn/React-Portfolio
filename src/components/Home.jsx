@@ -24,7 +24,7 @@ export default function Home() {
         </section>
         <section className="row p-3 border-1 mx-4 my-5">
             <h2 className="primary-color w-auto bg-white d-flex align-items-center">Skills</h2>
-            <div className="column-gap-3 column-gap-md-5 row-gap-2 d-flex flex-wrap fs-5 justify-content-center mb-2 px-0">
+            <div className="column-gap-3 column-gap-md-4 row-gap-2 d-flex flex-wrap fs-5 justify-content-center mb-2 px-0">
                 <span><i className="bi bi-filetype-html"></i> HTML5</span>
                 <span><i className="bi bi-filetype-css"></i> CSS3</span>
                 <span><i className="bi bi-filetype-js"></i> JavaScript</span>
@@ -32,7 +32,7 @@ export default function Home() {
                 <span><i className="bi bi-git"></i> Git</span>
                 <span><i className="bi bi-github"></i> GitHub</span>
             </div>
-            <div className="column-gap-3 column-gap-md-5 row-gap-2 d-flex flex-wrap fs-5 justify-content-center px-0 mb-2">
+            <div className="column-gap-3 column-gap-md-4 row-gap-1 d-flex flex-wrap fs-5 justify-content-center px-0 mb-2">
                 <span><i className="bi bi-check2-square"></i> Sitecore</span>
                 <span><i className="bi bi-check2-square"></i> Vue.JS</span>
                 <span><i className="bi bi-check2-square"></i> ReactJS</span>
@@ -52,10 +52,10 @@ export default function Home() {
                 <span><i className="bi bi-check2-square"></i> Agile Methodologies</span>
                 <span><i className="bi bi-check2-square"></i> RESTful Services</span>
                 <span><i className="bi bi-check2-square"></i> CI/CD</span>
-                <span><i className="bi bi-check2-square"></i> Visual Website Optimizer</span>
+                <span><i className="bi bi-check2-square"></i> VWO</span>
                 <span><i className="bi bi-check2-square"></i> Google Tag Management</span>
                 <span><i className="bi bi-check2-square"></i> Google Analytics</span>
-                <span><i className="bi bi-check2-square"></i> Search Engine Optimization</span>
+                <span><i className="bi bi-check2-square"></i> SEO</span>
                 <span><i className="bi bi-check2-square"></i> Email Marketing</span>
                 <span><i className="bi bi-check2-square"></i> Figma</span>
                 <span><i className="bi bi-check2-square"></i> A/B Test &amp; Personalization</span>
