@@ -91,7 +91,7 @@ export default function Home() {
                 <p className="col-md-6 mt-md-3 pe-md-2 pe-0">
                     I am excited to offer a comprehensive PageSpeed Optimization service, designed to enhance your website's performance and user experience. My expertise will help your site pass Core Web Vitals and achieve high scores in Performance, Accessibility, Best Practices, and SEO. Let’s work together to ensure your website is fast, accessible, and optimized for both users and search engines. <a href="https://wa.me/447539472477" target="_blank" className="primary-color d-inline-block">Get in Touch via WhatsApp</a>
                 </p>
-                <p className="col-md-6"><a href="https://pagespeed.web.dev/analysis/https-girlyn-com/01qhfazo37?form_factor=desktop" target="_blank" title="PageSpeed Insights"><img src="/images/pagespeed_insights.png" alt="PageSpeed Optimization" className="w-100 h-auto" width={575} height={295}/></a></p>
+                <p className="col-md-6"><a href="https://pagespeed.web.dev/analysis/https-girlyn-com/x14qnfaas7?form_factor=desktop" target="_blank" title="PageSpeed Insights"><img src="/images/pagespeed_insights.png" alt="PageSpeed Optimization" className="w-100 h-auto" width={575} height={295}/></a></p>
             </div>
         </section>
 
