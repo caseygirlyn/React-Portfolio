@@ -84,16 +84,6 @@ export default function Header() {
                         <li className="nav-item mx-2">
                             <NavLink
                                 className="nav-link fs-5 text-white"
-                                to="https://girlyn.co.uk/"
-                                target="_blank"
-                                onClick={closeNav}
-                            >
-                                Girlyn.co.uk
-                            </NavLink>
-                        </li>
-                        <li className="nav-item mx-2">
-                            <NavLink
-                                className="nav-link fs-5 text-white"
                                 to="contact"
                                 onClick={closeNav}
                             >
