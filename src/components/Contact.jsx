@@ -85,7 +85,7 @@ export default function Contact() {
     return <div className="container content my-3 py-1">
         <section className="row p-3 border-1 mx-4 my-5">
             <h2 className="primary-color w-auto bg-white d-flex align-items-center">Contact Me</h2>
-            <p className='my-3 px-md-2 px-0'>Feel free to reach out to me at <a href='mailto:casey.girlyn@gmail.com' className='primary-color link'>casey.girlyn@gmail.com</a> or fill in the form below and <a href="/cv/GIRLYN_CASEY_CV_2024.pdf" className="primary-color link" target="_blank"><i className="bi bi-download me-2"></i>Download my CV</a>.</p>
+            <p className='my-3 px-md-2 px-0'>Feel free to reach out to me at <a href='mailto:casey.girlyn@gmail.com' className='primary-color link'>casey.girlyn@gmail.com</a> or fill in the form below and <a href="/cv/GIRLYN_CASEY_CV.pdf" className="primary-color link" target="_blank"><i className="bi bi-download me-2"></i>Download my CV</a>.</p>
 
             {submitted ? (
                 <div className='px-2'><div className="alert alert-success" role="alert">
