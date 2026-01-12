@@ -48,7 +48,6 @@ export default function Home() {
                 <span><i className="bi bi-check2-square"></i> MySQL</span>
                 <span><i className="bi bi-check2-square"></i> Performance Optimization</span>
                 <span><i className="bi bi-check2-square"></i> Responsive Design</span>
-                <span><i className="bi bi-check2-square"></i> Cross-Browser Compatibility</span>
                 <span><i className="bi bi-check2-square"></i> Agile Methodologies</span>
                 <span><i className="bi bi-check2-square"></i> RESTful Services</span>
                 <span><i className="bi bi-check2-square"></i> CI/CD</span>
