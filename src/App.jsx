@@ -15,29 +15,31 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="projects" element={
-          <Projects>
-            {projects.map((projectObj) => (
-              <Project
-                id={projectObj.id}
-                key={projectObj.id}
-                name={projectObj.name}
-                image={projectObj.image}
-                tech={projectObj.tech}
-                url={projectObj.url}
-                githubRepo={projectObj.githubRepo}
-                slug={projectObj.slug}
-              />
-            ))
-            }
-          </Projects>
-        }></Route>
-        <Route path="projects/:slug" element={<Slug />}>
-        </Route>  
-        <Route path="contact" element={<Contact />}></Route>
-      </Routes>
+      <main role="main">
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="projects" element={
+            <Projects>
+              {projects.map((projectObj) => (
+                <Project
+                  id={projectObj.id}
+                  key={projectObj.id}
+                  name={projectObj.name}
+                  image={projectObj.image}
+                  tech={projectObj.tech}
+                  url={projectObj.url}
+                  githubRepo={projectObj.githubRepo}
+                  slug={projectObj.slug}
+                />
+              ))
+              }
+            </Projects>
+          }></Route>
+          <Route path="projects/:slug" element={<Slug />}>
+          </Route>  
+          <Route path="contact" element={<Contact />}></Route>
+        </Routes>
+      </main>
       <Footer />
     </>
   );
