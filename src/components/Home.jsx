@@ -24,41 +24,41 @@ export default function Home() {
         </section>
         <section className="row p-3 border-1 mx-4 my-5">
             <h2 className="primary-color w-auto bg-white d-flex align-items-center">Skills</h2>
-            <div className="column-gap-3 column-gap-md-4 row-gap-2 d-flex flex-wrap fs-5 justify-content-center mb-2 px-0">
-                <span><i className="bi bi-filetype-html"></i> HTML5</span>
-                <span><i className="bi bi-filetype-css"></i> CSS3</span>
-                <span><i className="bi bi-filetype-js"></i> JavaScript</span>
-                <span><i className="bi bi-wordpress"></i> WordPress</span>
-                <span><i className="bi bi-git"></i> Git</span>
-                <span><i className="bi bi-github"></i> GitHub</span>
-            </div>
-            <div className="column-gap-3 column-gap-md-4 row-gap-2 d-flex flex-wrap fs-5 justify-content-center px-0 mb-2">
-                <span><i className="bi bi-check2-square"></i> Sitecore</span>
-                <span><i className="bi bi-check2-square"></i> Vue.JS</span>
-                <span><i className="bi bi-check2-square"></i> ReactJS</span>
-                <span><i className="bi bi-check2-square"></i> Node.JS</span>
-                <span><i className="bi bi-check2-square"></i> Angular</span>
-                <span><i className="bi bi-check2-square"></i> jQuery</span>
-                <span><i className="bi bi-check2-square"></i> Bitbucket</span>
-                <span><i className="bi bi-check2-square"></i> API integration</span>
-                <span><i className="bi bi-check2-square"></i> Bootstrap</span>
-                <span><i className="bi bi-check2-square"></i> Tailwind CSS</span>
-                <span><i className="bi bi-check2-square"></i> PrimeVue</span>
-                <span><i className="bi bi-check2-square"></i> PHP</span>
-                <span><i className="bi bi-check2-square"></i> MySQL</span>
-                <span><i className="bi bi-check2-square"></i> Performance Optimization</span>
-                <span><i className="bi bi-check2-square"></i> Responsive Design</span>
-                <span><i className="bi bi-check2-square"></i> Agile Methodologies</span>
-                <span><i className="bi bi-check2-square"></i> RESTful Services</span>
-                <span><i className="bi bi-check2-square"></i> CI/CD</span>
-                <span><i className="bi bi-check2-square"></i> VWO</span>
-                <span><i className="bi bi-check2-square"></i> Google Tag Management</span>
-                <span><i className="bi bi-check2-square"></i> Google Analytics</span>
-                <span><i className="bi bi-check2-square"></i> SEO</span>
-                <span><i className="bi bi-check2-square"></i> Email Marketing</span>
-                <span><i className="bi bi-check2-square"></i> Figma</span>
-                <span><i className="bi bi-check2-square"></i> A/B Test &amp; Personalization</span>
-            </div>
+            <ul className="column-gap-3 column-gap-md-4 row-gap-2 d-flex flex-wrap fs-5 justify-content-center mb-2 px-0 list-unstyled"> 
+                <li><i className="bi bi-filetype-html"></i> HTML5</li>
+                <li><i className="bi bi-filetype-css"></i> CSS3</li>
+                <li><i className="bi bi-filetype-js"></i> JavaScript</li>
+                <li><i className="bi bi-wordpress"></i> WordPress</li>
+                <li><i className="bi bi-git"></i> Git</li>
+                <li><i className="bi bi-github"></i> GitHub</li>
+            </ul>
+            <ul className="column-gap-3 column-gap-md-4 row-gap-2 d-flex flex-wrap fs-5 justify-content-center px-0 mb-2 list-unstyled">
+                <li><i className="bi bi-check2-square"></i> Sitecore</li>
+                <li><i className="bi bi-check2-square"></i> Vue.JS</li>
+                <li><i className="bi bi-check2-square"></i> ReactJS</li>
+                <li><i className="bi bi-check2-square"></i> Node.JS</li>
+                <li><i className="bi bi-check2-square"></i> Angular</li>
+                <li><i className="bi bi-check2-square"></i> jQuery</li>
+                <li><i className="bi bi-check2-square"></i> Bitbucket</li>
+                <li><i className="bi bi-check2-square"></i> API integration</li>
+                <li><i className="bi bi-check2-square"></i> Bootstrap</li>
+                <li><i className="bi bi-check2-square"></i> Tailwind CSS</li>
+                <li><i className="bi bi-check2-square"></i> PrimeVue</li>
+                <li><i className="bi bi-check2-square"></i> PHP</li>
+                <li><i className="bi bi-check2-square"></i> MySQL</li>
+                <li><i className="bi bi-check2-square"></i> Performance Optimization</li>
+                <li><i className="bi bi-check2-square"></i> Responsive Design</li>
+                <li><i className="bi bi-check2-square"></i> Agile Methodologies</li>
+                <li><i className="bi bi-check2-square"></i> RESTful Services</li>
+                <li><i className="bi bi-check2-square"></i> CI/CD</li>
+                <li><i className="bi bi-check2-square"></i> VWO</li>
+                <li><i className="bi bi-check2-square"></i> Google Tag Management</li>
+                <li><i className="bi bi-check2-square"></i> Google Analytics</li>
+                <li><i className="bi bi-check2-square"></i> SEO</li>
+                <li><i className="bi bi-check2-square"></i> Email Marketing</li>
+                <li><i className="bi bi-check2-square"></i> Figma</li>
+                <li><i className="bi bi-check2-square"></i> A/B Test &amp; Personalization</li>
+            </ul>
         </section>
         <section className="row p-3 border-1 mx-4 my-5">
             <h2 className="primary-color w-auto bg-white d-flex align-items-center">Certificates</h2>
