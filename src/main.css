@@ -76,7 +76,10 @@ a.nav-link:hover {
 /* card style */
 .card {
   border-color: var(--primary-color) !important;
-  
+}
+
+.card-text, .card-link {
+  font-size: .875rem;
 }
 
 /* contant links style */
@@ -95,11 +98,15 @@ footer a.btn:hover {
 @media screen and (min-width: 1200px) {
   .caption {
     position: absolute;
-    margin-top: 15%;
+    margin-top: 10%;
     opacity: 0.98;
   }
   .caption:hover {
     padding: 20px 40px;
+  }
+  .cardContainer .card {
+    max-height: 150px;
+    overflow: hidden;
   }
 }
 

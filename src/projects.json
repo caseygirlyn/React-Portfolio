@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "name": "StockPulseAI",
+        "image": "/images/StockPulseAI.gif",
+        "tech": "Google Gemini 3.1 Pro / Vite / React / TypeScript / TailwindCSS",
+        "description": "StockPulse AI is a professional-grade, real-time stock analysis and market intelligence platform. Powered by Google's Gemini 3.1 Pro, it provides institutional-level technical analysis, news sentiment, and actionable investment insights in seconds.",
+        "url": "https://stockpulse-ai.netlify.app/",
+        "githubRepo" : "https://github.com/caseygirlyn/StockPulse-AI",
+        "slug": "aiqtrading"
+    },{
+        "id": 2,
         "name": "AIQTrading",
         "image": "/images/AIQTrading.gif",
         "tech": "HTML / CSS / Vite / ReactJS / NodeJS / API",
@@ -10,7 +19,7 @@
         "slug": "aiqtrading"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "CurrenCity",
         "image": "/images/CurrenCity.gif",
         "tech": "HTML / CSS / JS / API",
@@ -20,7 +29,7 @@
         "slug": "currencity"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Professional README Generator",
         "image": "/images/Professional-README-Generator.gif",
         "tech": "NPM / Node.js",
@@ -30,7 +39,7 @@
         "slug": "readme-generator"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Team Profile Generator",
         "image": "/images/Team-Profile-Generator.gif",
         "tech": "HTML / CSS / NPM / Node.js",
@@ -38,16 +47,6 @@
         "url": "https://github.com/caseygirlyn/Team-Profile-Generator/blob/main/output/team.html",
         "githubRepo" : "https://github.com/caseygirlyn/Team-Profile-Generator",
         "slug": "profile-generator"
-    },
-    {
-        "id": 5,
-        "name": "Girlyn",
-        "image": "/images/girlyn.png",
-        "tech": "HTML / CSS / WordPress",
-        "description": "Girlyn LTD is company that specializes in providing a range of digital services to businesses and organizations. These services include website design and development, Technical SEO, PageSpeed Optimization and Google Tag Management.",
-        "url": "https://girlyn.co.uk/",
-        "githubRepo" : "",
-        "slug": "girlyn"
     },
     {
         "id": 6,
