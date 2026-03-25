@@ -105,7 +105,7 @@ footer a.btn:hover {
     padding: 20px 40px;
   }
   .cardContainer .card {
-    max-height: 150px;
+    max-height: 175px;
     overflow: hidden;
   }
 }
